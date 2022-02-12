@@ -1,0 +1,346 @@
+Total train data points: 2448, Won: 45.91503267973856%, Lost: 29.820261437908496%, Draw: 24.264705882352942%
+Total val data points: 306, Won: 45.09803921568628%, Lost: 31.045751633986928%, Draw: 23.856209150326798%
+Total test data points: 306, Won: 40.19607843137255%, Lost: 37.58169934640523%, Draw: 22.22222222222222%
+GNN model, data {} 0
+Continuous evaluation
+2754
+648
+T:0, train_loss:1.13342, train_acc:0.16296, val_loss=1.11452, val_acc=0.23457
+C:\Users\Amin\anaconda3\lib\site-packages\pandas\core\frame.py:3636: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  self[k1] = value[k2]
+648
+T:1, train_loss:1.14309, train_acc:0.08889, val_loss=1.11269, val_acc=0.23611
+606
+T:2, train_loss:1.03410, train_acc:0.47748, val_loss=1.10515, val_acc=0.24537
+18
+T:3, train_loss:1.07947, train_acc:0.51608, val_loss=1.18989, val_acc=0.36420
+4
+T:4, train_loss:0.98234, train_acc:0.51520, val_loss=1.28976, val_acc=0.34568
+4
+T:5, train_loss:0.97003, train_acc:0.52184, val_loss=1.31803, val_acc=0.44907
+61
+T:6, train_loss:0.96502, train_acc:0.52951, val_loss=1.54092, val_acc=0.41358
+13
+T:7, train_loss:0.95271, train_acc:0.48264, val_loss=1.75643, val_acc=0.45525
+136
+T:8, train_loss:0.97553, train_acc:0.48117, val_loss=2.11062, val_acc=0.41204
+T:9, train_loss:0.95827, train_acc:0.52833, val_loss=2.01147, val_acc=0.47377
+T:10, train_loss:0.97875, train_acc:0.52033, val_loss=2.01155, val_acc=0.39352
+T:11, train_loss:0.99847, train_acc:0.51445, val_loss=2.79341, val_acc=0.43210
+T:12, train_loss:1.01181, train_acc:0.52116, val_loss=2.75686, val_acc=0.43056
+T:13, train_loss:0.98997, train_acc:0.52458, val_loss=2.38257, val_acc=0.49691
+T:14, train_loss:1.01402, train_acc:0.52430, val_loss=2.49926, val_acc=0.44290
+T:15, train_loss:1.01593, train_acc:0.52546, val_loss=2.69156, val_acc=0.43056
+T:16, train_loss:1.02568, train_acc:0.53766, val_loss=2.62447, val_acc=0.47685
+T:17, train_loss:1.02223, train_acc:0.51484, val_loss=2.38011, val_acc=0.44907
+T:18, train_loss:1.03945, train_acc:0.49958, val_loss=3.09120, val_acc=0.45525
+T:19, train_loss:1.03012, train_acc:0.50384, val_loss=4.40581, val_acc=0.45679
+T:20, train_loss:1.03651, train_acc:0.49647, val_loss=2.56374, val_acc=0.45679
+T:21, train_loss:1.04581, train_acc:0.49615, val_loss=2.54498, val_acc=0.46605
+T:22, train_loss:1.02271, train_acc:0.50511, val_loss=2.09770, val_acc=0.46914
+T:23, train_loss:1.03846, train_acc:0.49279, val_loss=2.45400, val_acc=0.47685
+T:24, train_loss:1.04115, train_acc:0.48920, val_loss=2.24651, val_acc=0.47531
+T:25, train_loss:1.03787, train_acc:0.48469, val_loss=1.60877, val_acc=0.48148
+T:26, train_loss:1.02462, train_acc:0.49545, val_loss=3.09608, val_acc=0.47685
+T:27, train_loss:1.02773, train_acc:0.49096, val_loss=2.06815, val_acc=0.47840
+T:28, train_loss:1.03111, train_acc:0.48891, val_loss=3.71372, val_acc=0.47377
+T:29, train_loss:1.04237, train_acc:0.47235, val_loss=1.35975, val_acc=0.47531
+T:30, train_loss:1.03510, train_acc:0.48195, val_loss=1.08511, val_acc=0.46914
+T:31, train_loss:1.03550, train_acc:0.47925, val_loss=1.16829, val_acc=0.46759
+T:32, train_loss:1.04819, train_acc:0.46606, val_loss=1.79807, val_acc=0.47840
+T:33, train_loss:1.05379, train_acc:0.45833, val_loss=1.09285, val_acc=0.47994
+T:34, train_loss:1.03762, train_acc:0.48528, val_loss=1.12740, val_acc=0.47994
+T:35, train_loss:1.05246, train_acc:0.47657, val_loss=1.14892, val_acc=0.47222
+T:36, train_loss:1.05386, train_acc:0.47427, val_loss=1.10243, val_acc=0.48611
+T:37, train_loss:1.04723, train_acc:0.48332, val_loss=1.10289, val_acc=0.47068
+T:38, train_loss:1.04162, train_acc:0.47967, val_loss=1.11623, val_acc=0.47840
+T:39, train_loss:1.04334, train_acc:0.47437, val_loss=1.06773, val_acc=0.43673
+T:40, train_loss:1.03625, train_acc:0.48565, val_loss=1.06807, val_acc=0.42593
+T:41, train_loss:1.03885, train_acc:0.48590, val_loss=1.10155, val_acc=0.47068
+T:42, train_loss:1.04194, train_acc:0.47721, val_loss=1.11928, val_acc=0.44907
+T:43, train_loss:1.04222, train_acc:0.47764, val_loss=1.08396, val_acc=0.45370
+T:44, train_loss:1.04009, train_acc:0.47998, val_loss=1.06102, val_acc=0.47531
+T:45, train_loss:1.04181, train_acc:0.47746, val_loss=1.22965, val_acc=0.47840
+T:46, train_loss:1.03845, train_acc:0.48429, val_loss=1.09321, val_acc=0.46914
+T:47, train_loss:1.03681, train_acc:0.48731, val_loss=1.20864, val_acc=0.43981
+T:48, train_loss:1.03863, train_acc:0.48491, val_loss=1.20216, val_acc=0.43981
+T:49, train_loss:1.04142, train_acc:0.47913, val_loss=1.40826, val_acc=0.46759
+T:50, train_loss:1.04384, train_acc:0.47672, val_loss=1.45947, val_acc=0.46914
+T:51, train_loss:1.04454, train_acc:0.47787, val_loss=1.26549, val_acc=0.44444
+T:52, train_loss:1.03859, train_acc:0.48558, val_loss=1.22177, val_acc=0.46914
+T:53, train_loss:1.04830, train_acc:0.47636, val_loss=1.68849, val_acc=0.46759
+T:54, train_loss:1.04801, train_acc:0.47136, val_loss=1.37654, val_acc=0.46759
+T:55, train_loss:1.05215, train_acc:0.46414, val_loss=1.44808, val_acc=0.46296
+T:56, train_loss:1.05121, train_acc:0.47486, val_loss=1.13371, val_acc=0.42901
+T:57, train_loss:1.05176, train_acc:0.47401, val_loss=1.35552, val_acc=0.46605
+T:58, train_loss:1.04790, train_acc:0.48220, val_loss=1.20875, val_acc=0.46142
+T:59, train_loss:1.03971, train_acc:0.48805, val_loss=2.49479, val_acc=0.45988
+T:60, train_loss:1.03824, train_acc:0.49449, val_loss=2.96808, val_acc=0.46451
+T:61, train_loss:1.04235, train_acc:0.48142, val_loss=1.95496, val_acc=0.47222
+T:62, train_loss:1.03346, train_acc:0.48624, val_loss=2.38529, val_acc=0.46759
+T:63, train_loss:1.03063, train_acc:0.48516, val_loss=7.19980, val_acc=0.47377
+T:64, train_loss:1.03639, train_acc:0.48202, val_loss=5.61260, val_acc=0.47994
+T:65, train_loss:1.04474, train_acc:0.47227, val_loss=4.45536, val_acc=0.47994
+T:66, train_loss:1.04927, train_acc:0.46974, val_loss=11.67891, val_acc=0.47531
+T:67, train_loss:1.04793, train_acc:0.46914, val_loss=9.48320, val_acc=0.47685
+T:68, train_loss:1.06256, train_acc:0.46257, val_loss=3.69793, val_acc=0.47531
+T:69, train_loss:1.26768, train_acc:0.46396, val_loss=9.49866, val_acc=0.47531
+T:70, train_loss:1.10524, train_acc:0.46245, val_loss=2.71839, val_acc=0.48302
+T:71, train_loss:1.09413, train_acc:0.45643, val_loss=1.68127, val_acc=0.48302
+T:72, train_loss:1.08473, train_acc:0.45781, val_loss=1.53363, val_acc=0.48457
+T:73, train_loss:1.06442, train_acc:0.46347, val_loss=1.52654, val_acc=0.48302
+T:74, train_loss:1.05566, train_acc:0.46436, val_loss=1.49728, val_acc=0.47994
+T:75, train_loss:1.05828, train_acc:0.45387, val_loss=1.41060, val_acc=0.48611
+T:76, train_loss:1.05737, train_acc:0.46247, val_loss=1.50958, val_acc=0.48611
+T:77, train_loss:1.05605, train_acc:0.46200, val_loss=1.58929, val_acc=0.48611
+T:78, train_loss:1.04598, train_acc:0.47502, val_loss=1.68578, val_acc=0.47840
+T:79, train_loss:1.04757, train_acc:0.46695, val_loss=1.88282, val_acc=0.47685
+T:80, train_loss:1.04996, train_acc:0.46883, val_loss=1.90455, val_acc=0.47531
+T:81, train_loss:1.04619, train_acc:0.47237, val_loss=1.77892, val_acc=0.47685
+T:82, train_loss:1.04497, train_acc:0.47160, val_loss=1.71649, val_acc=0.45216
+T:83, train_loss:1.03929, train_acc:0.47814, val_loss=2.17865, val_acc=0.47840
+24
+T:84, train_loss:1.04449, train_acc:0.47237, val_loss=1.67220, val_acc=0.46914
+28
+T:85, train_loss:1.04462, train_acc:0.47131, val_loss=1.73714, val_acc=0.48302
+6
+T:86, train_loss:1.03900, train_acc:0.48280, val_loss=1.42140, val_acc=0.47531
+24
+T:87, train_loss:1.04664, train_acc:0.47166, val_loss=1.47104, val_acc=0.46759
+T:88, train_loss:1.04805, train_acc:0.47113, val_loss=1.85980, val_acc=0.48457
+T:89, train_loss:1.04447, train_acc:0.46948, val_loss=1.57211, val_acc=0.47994
+26
+T:90, train_loss:1.04418, train_acc:0.47143, val_loss=1.60493, val_acc=0.46296
+T:91, train_loss:1.04420, train_acc:0.47084, val_loss=1.81906, val_acc=0.47840
+T:92, train_loss:1.04702, train_acc:0.46518, val_loss=1.78097, val_acc=0.47685
+32
+T:93, train_loss:1.04567, train_acc:0.46730, val_loss=2.11534, val_acc=0.45833
+30
+T:94, train_loss:1.03891, train_acc:0.47561, val_loss=2.12258, val_acc=0.45833
+33
+T:95, train_loss:1.03848, train_acc:0.48221, val_loss=1.96988, val_acc=0.45679
+33
+T:96, train_loss:1.04141, train_acc:0.47349, val_loss=1.76575, val_acc=0.45062
+34
+T:97, train_loss:1.04299, train_acc:0.47296, val_loss=1.62163, val_acc=0.31790
+T:98, train_loss:1.03707, train_acc:0.48197, val_loss=1.92843, val_acc=0.47840
+T:99, train_loss:1.03990, train_acc:0.47879, val_loss=2.06490, val_acc=0.48457
+T:100, train_loss:1.04286, train_acc:0.45823, val_loss=2.23695, val_acc=0.47531
+T:101, train_loss:1.04640, train_acc:0.46589, val_loss=1.91447, val_acc=0.48457
+T:102, train_loss:1.04052, train_acc:0.46607, val_loss=1.87376, val_acc=0.48611
+39
+T:103, train_loss:1.04171, train_acc:0.47484, val_loss=2.53174, val_acc=0.46605
+T:104, train_loss:1.03695, train_acc:0.46872, val_loss=2.47210, val_acc=0.47531
+T:105, train_loss:1.02750, train_acc:0.47732, val_loss=1.79361, val_acc=0.46914
+T:106, train_loss:1.03804, train_acc:0.48392, val_loss=1.96315, val_acc=0.46296
+T:107, train_loss:1.04062, train_acc:0.47626, val_loss=1.57279, val_acc=0.47222
+T:108, train_loss:1.04341, train_acc:0.45181, val_loss=1.58422, val_acc=0.47377
+T:109, train_loss:1.05016, train_acc:0.47296, val_loss=1.41758, val_acc=0.38117
+T:110, train_loss:1.04889, train_acc:0.46566, val_loss=1.83493, val_acc=0.47994
+T:111, train_loss:1.04262, train_acc:0.47056, val_loss=1.67039, val_acc=0.48302
+T:112, train_loss:1.07835, train_acc:0.48042, val_loss=1.59284, val_acc=0.42747
+T:113, train_loss:1.06442, train_acc:0.48019, val_loss=1.35925, val_acc=0.47222
+T:114, train_loss:1.05376, train_acc:0.46964, val_loss=1.24410, val_acc=0.47377
+T:115, train_loss:1.05006, train_acc:0.47339, val_loss=1.20744, val_acc=0.47685
+T:116, train_loss:1.04096, train_acc:0.48463, val_loss=1.18534, val_acc=0.46451
+T:117, train_loss:1.04326, train_acc:0.46964, val_loss=1.17279, val_acc=0.47222
+T:118, train_loss:1.05133, train_acc:0.47466, val_loss=1.12437, val_acc=0.47531
+T:119, train_loss:1.05319, train_acc:0.46630, val_loss=1.10736, val_acc=0.48148
+T:120, train_loss:1.04445, train_acc:0.46785, val_loss=1.10285, val_acc=0.48148
+T:121, train_loss:1.04062, train_acc:0.47622, val_loss=1.07838, val_acc=0.47377
+T:122, train_loss:1.03298, train_acc:0.48308, val_loss=1.08456, val_acc=0.47685
+T:123, train_loss:1.04525, train_acc:0.46762, val_loss=1.08891, val_acc=0.47531
+T:124, train_loss:1.04357, train_acc:0.46832, val_loss=1.08740, val_acc=0.48148
+T:125, train_loss:1.04245, train_acc:0.47149, val_loss=1.08651, val_acc=0.47685
+T:126, train_loss:1.05577, train_acc:0.46451, val_loss=1.06216, val_acc=0.48148
+T:127, train_loss:1.05179, train_acc:0.46232, val_loss=1.08010, val_acc=0.46759
+T:128, train_loss:1.05101, train_acc:0.46480, val_loss=1.10497, val_acc=0.47531
+T:129, train_loss:1.05847, train_acc:0.46168, val_loss=1.09322, val_acc=0.49228
+T:130, train_loss:1.05472, train_acc:0.46618, val_loss=1.09337, val_acc=0.48765
+T:131, train_loss:1.04501, train_acc:0.47645, val_loss=1.06119, val_acc=0.48457
+T:132, train_loss:1.03583, train_acc:0.48509, val_loss=1.09977, val_acc=0.33488
+T:133, train_loss:1.03728, train_acc:0.48083, val_loss=1.13011, val_acc=0.48148
+T:134, train_loss:1.03153, train_acc:0.48682, val_loss=1.10940, val_acc=0.49537
+T:135, train_loss:1.02704, train_acc:0.48953, val_loss=1.08769, val_acc=0.47994
+T:136, train_loss:1.04157, train_acc:0.48567, val_loss=1.07636, val_acc=0.48148
+T:137, train_loss:1.04271, train_acc:0.47322, val_loss=1.14170, val_acc=0.35648
+T:138, train_loss:1.06674, train_acc:0.40921, val_loss=1.10818, val_acc=0.46142
+T:139, train_loss:1.05953, train_acc:0.44998, val_loss=1.07019, val_acc=0.44136
+T:140, train_loss:1.03974, train_acc:0.48192, val_loss=1.09640, val_acc=0.47685
+T:141, train_loss:1.03608, train_acc:0.48982, val_loss=1.09923, val_acc=0.47068
+T:142, train_loss:1.04572, train_acc:0.47950, val_loss=1.08748, val_acc=0.47531
+T:143, train_loss:1.06233, train_acc:0.45229, val_loss=1.07382, val_acc=0.47994
+T:144, train_loss:1.06138, train_acc:0.45061, val_loss=1.05479, val_acc=0.46296
+T:145, train_loss:1.05566, train_acc:0.45171, val_loss=1.07123, val_acc=0.46142
+T:146, train_loss:1.05633, train_acc:0.44669, val_loss=1.07914, val_acc=0.45988
+T:147, train_loss:1.04809, train_acc:0.45632, val_loss=1.09120, val_acc=0.43364
+T:148, train_loss:1.04510, train_acc:0.45655, val_loss=1.09000, val_acc=0.42130
+T:149, train_loss:1.04563, train_acc:0.46555, val_loss=1.07326, val_acc=0.47222
+T:150, train_loss:1.03448, train_acc:0.47950, val_loss=1.10219, val_acc=0.46451
+T:151, train_loss:1.02930, train_acc:0.48475, val_loss=1.10255, val_acc=0.47377
+T:152, train_loss:1.03330, train_acc:0.48948, val_loss=1.08584, val_acc=0.46759
+T:153, train_loss:1.02824, train_acc:0.48729, val_loss=1.13173, val_acc=0.45988
+T:154, train_loss:1.03549, train_acc:0.48435, val_loss=1.10231, val_acc=0.47994
+T:155, train_loss:1.03529, train_acc:0.48907, val_loss=1.07170, val_acc=0.49537
+T:156, train_loss:1.03610, train_acc:0.48619, val_loss=1.23227, val_acc=0.47222
+T:157, train_loss:1.03345, train_acc:0.50136, val_loss=1.05879, val_acc=0.47377
+T:158, train_loss:1.02997, train_acc:0.49703, val_loss=1.26776, val_acc=0.45988
+T:159, train_loss:1.02349, train_acc:0.50902, val_loss=1.35087, val_acc=0.41358
+T:160, train_loss:1.01218, train_acc:0.52419, val_loss=1.39841, val_acc=0.46914
+T:161, train_loss:1.02361, train_acc:0.50983, val_loss=1.33698, val_acc=0.48765
+T:162, train_loss:1.02791, train_acc:0.50706, val_loss=1.61728, val_acc=0.47531
+T:163, train_loss:1.02322, train_acc:0.51179, val_loss=1.53541, val_acc=0.48148
+T:164, train_loss:1.02857, train_acc:0.50037, val_loss=1.52491, val_acc=0.47685
+T:165, train_loss:1.02869, train_acc:0.50271, val_loss=1.54840, val_acc=0.47222
+T:166, train_loss:1.02250, train_acc:0.51378, val_loss=1.46549, val_acc=0.47222
+T:167, train_loss:1.02417, train_acc:0.50638, val_loss=1.65870, val_acc=0.47068
+T:168, train_loss:1.03904, train_acc:0.46460, val_loss=1.47658, val_acc=0.46759
+T:169, train_loss:1.04790, train_acc:0.44281, val_loss=1.48701, val_acc=0.32562
+T:170, train_loss:1.03983, train_acc:0.51361, val_loss=1.28230, val_acc=0.47531
+T:171, train_loss:1.04349, train_acc:0.50418, val_loss=1.09064, val_acc=0.42593
+T:172, train_loss:1.03490, train_acc:0.50830, val_loss=1.27443, val_acc=0.37346
+T:173, train_loss:1.04543, train_acc:0.47578, val_loss=1.37275, val_acc=0.42593
+T:174, train_loss:1.03843, train_acc:0.48018, val_loss=1.19836, val_acc=0.42130
+T:175, train_loss:1.02890, train_acc:0.50147, val_loss=1.09870, val_acc=0.43056
+T:176, train_loss:1.04984, train_acc:0.47002, val_loss=1.12265, val_acc=0.42438
+T:177, train_loss:1.04863, train_acc:0.46573, val_loss=1.13283, val_acc=0.43056
+T:178, train_loss:1.03517, train_acc:0.49136, val_loss=1.07655, val_acc=0.42438
+T:179, train_loss:1.03548, train_acc:0.47996, val_loss=1.10933, val_acc=0.36265
+T:180, train_loss:1.03957, train_acc:0.47442, val_loss=1.11494, val_acc=0.40741
+T:181, train_loss:1.04102, train_acc:0.47696, val_loss=1.13970, val_acc=0.41975
+T:182, train_loss:1.04292, train_acc:0.47279, val_loss=1.12962, val_acc=0.42130
+T:183, train_loss:1.04500, train_acc:0.47538, val_loss=1.07739, val_acc=0.43210
+48
+T:184, train_loss:1.04984, train_acc:0.47002, val_loss=1.38463, val_acc=0.42747
+25
+T:185, train_loss:1.04461, train_acc:0.48696, val_loss=1.38128, val_acc=0.46759
+T:186, train_loss:1.03756, train_acc:0.48747, val_loss=1.20904, val_acc=0.41821
+T:187, train_loss:1.04460, train_acc:0.47431, val_loss=1.17510, val_acc=0.42130
+T:188, train_loss:1.04322, train_acc:0.48493, val_loss=1.19064, val_acc=0.42284
+T:189, train_loss:1.05177, train_acc:0.46968, val_loss=1.13963, val_acc=0.42438
+51
+T:190, train_loss:1.05196, train_acc:0.46618, val_loss=1.63217, val_acc=0.42284
+28
+T:191, train_loss:1.05286, train_acc:0.46539, val_loss=1.42483, val_acc=0.41975
+28
+T:192, train_loss:1.05569, train_acc:0.45032, val_loss=1.31968, val_acc=0.42438
+T:193, train_loss:1.04203, train_acc:0.46172, val_loss=1.19988, val_acc=0.42747
+T:194, train_loss:1.04822, train_acc:0.46093, val_loss=1.21570, val_acc=0.42284
+T:195, train_loss:1.04396, train_acc:0.46900, val_loss=1.22757, val_acc=0.42901
+T:196, train_loss:1.04679, train_acc:0.46906, val_loss=1.29700, val_acc=0.44753
+T:197, train_loss:1.05073, train_acc:0.46607, val_loss=1.18953, val_acc=0.46451
+33
+T:198, train_loss:1.06237, train_acc:0.44032, val_loss=1.24514, val_acc=0.45525
+T:199, train_loss:1.07285, train_acc:0.41813, val_loss=1.16085, val_acc=0.34259
+T:200, train_loss:1.06528, train_acc:0.44732, val_loss=1.08337, val_acc=0.46914
+T:201, train_loss:1.06105, train_acc:0.44817, val_loss=1.05827, val_acc=0.45216
+T:202, train_loss:1.06469, train_acc:0.43880, val_loss=1.06701, val_acc=0.44907
+T:203, train_loss:1.06711, train_acc:0.42214, val_loss=1.07345, val_acc=0.47222
+T:204, train_loss:1.06589, train_acc:0.42598, val_loss=1.07392, val_acc=0.47068
+T:205, train_loss:1.06547, train_acc:0.42485, val_loss=1.08043, val_acc=0.46914
+T:206, train_loss:1.06106, train_acc:0.42892, val_loss=1.06278, val_acc=0.47222
+T:207, train_loss:1.06176, train_acc:0.42310, val_loss=1.05985, val_acc=0.46914
+T:208, train_loss:1.06279, train_acc:0.42626, val_loss=1.06153, val_acc=0.46914
+T:209, train_loss:1.06461, train_acc:0.42384, val_loss=1.07127, val_acc=0.46451
+T:210, train_loss:1.06809, train_acc:0.42107, val_loss=1.07675, val_acc=0.46142
+T:211, train_loss:1.06651, train_acc:0.42152, val_loss=1.07232, val_acc=0.46451
+T:212, train_loss:1.06148, train_acc:0.43242, val_loss=1.07220, val_acc=0.46142
+T:213, train_loss:1.06479, train_acc:0.42587, val_loss=1.06795, val_acc=0.46142
+T:214, train_loss:1.06908, train_acc:0.42248, val_loss=1.06909, val_acc=0.46296
+T:215, train_loss:1.06746, train_acc:0.41983, val_loss=1.06344, val_acc=0.46759
+T:216, train_loss:1.06717, train_acc:0.41119, val_loss=1.05854, val_acc=0.46759
+T:217, train_loss:1.06624, train_acc:0.43846, val_loss=1.07808, val_acc=0.46605
+T:218, train_loss:1.05545, train_acc:0.45184, val_loss=1.06508, val_acc=0.46142
+T:219, train_loss:1.04789, train_acc:0.45495, val_loss=1.06872, val_acc=0.46142
+T:220, train_loss:1.04298, train_acc:0.45472, val_loss=1.04268, val_acc=0.45833
+T:221, train_loss:1.03454, train_acc:0.45788, val_loss=1.06536, val_acc=0.45833
+T:222, train_loss:1.02133, train_acc:0.46313, val_loss=1.06766, val_acc=0.45833
+T:223, train_loss:1.02554, train_acc:0.47403, val_loss=1.18287, val_acc=0.44290
+T:224, train_loss:1.02968, train_acc:0.46946, val_loss=1.28707, val_acc=0.45216
+T:225, train_loss:1.02401, train_acc:0.46996, val_loss=1.04434, val_acc=0.45679
+T:226, train_loss:1.02284, train_acc:0.47617, val_loss=1.10193, val_acc=0.46142
+T:227, train_loss:1.02421, train_acc:0.48035, val_loss=1.09565, val_acc=0.45525
+T:228, train_loss:1.02684, train_acc:0.48583, val_loss=1.08746, val_acc=0.47840
+T:229, train_loss:1.02743, train_acc:0.48549, val_loss=1.05406, val_acc=0.47840
+T:230, train_loss:1.02316, train_acc:0.49633, val_loss=1.13449, val_acc=0.47994
+T:231, train_loss:1.02032, train_acc:0.49385, val_loss=1.18826, val_acc=0.46759
+T:232, train_loss:1.01451, train_acc:0.50886, val_loss=1.15570, val_acc=0.46296
+T:233, train_loss:1.00594, train_acc:0.51615, val_loss=1.38563, val_acc=0.45062
+T:234, train_loss:1.01875, train_acc:0.49802, val_loss=1.19729, val_acc=0.45370
+T:235, train_loss:1.01553, train_acc:0.51310, val_loss=1.15849, val_acc=0.45696
+T:236, train_loss:1.01285, train_acc:0.50243, val_loss=1.25957, val_acc=0.45238
+T:237, train_loss:1.01754, train_acc:0.50790, val_loss=1.47223, val_acc=0.45894
+T:238, train_loss:1.01854, train_acc:0.50220, val_loss=1.44991, val_acc=0.44935
+T:239, train_loss:1.00685, train_acc:0.51107, val_loss=1.59127, val_acc=0.45439
+T:240, train_loss:1.02310, train_acc:0.50610, val_loss=1.48659, val_acc=0.45791
+T:241, train_loss:1.01545, train_acc:0.50277, val_loss=1.42691, val_acc=0.45470
+T:242, train_loss:1.03394, train_acc:0.47979, val_loss=1.50992, val_acc=0.45660
+T:243, train_loss:1.04025, train_acc:0.48363, val_loss=1.06732, val_acc=0.46561
+T:244, train_loss:1.01886, train_acc:0.49362, val_loss=1.07794, val_acc=0.46416
+T:245, train_loss:1.01970, train_acc:0.49091, val_loss=1.17077, val_acc=0.47177
+T:246, train_loss:1.04022, train_acc:0.45664, val_loss=1.26246, val_acc=0.46667
+T:247, train_loss:1.03863, train_acc:0.45634, val_loss=1.14005, val_acc=0.47081
+T:248, train_loss:1.04318, train_acc:0.46629, val_loss=1.07959, val_acc=0.47701
+T:249, train_loss:1.04284, train_acc:0.46856, val_loss=1.19511, val_acc=0.47563
+T:250, train_loss:1.05036, train_acc:0.46148, val_loss=1.04832, val_acc=0.45437
+T:251, train_loss:1.04177, train_acc:0.46590, val_loss=1.16543, val_acc=0.45253
+T:252, train_loss:1.06171, train_acc:0.45429, val_loss=1.20545, val_acc=0.47737
+T:253, train_loss:1.04817, train_acc:0.46507, val_loss=1.18546, val_acc=0.45702
+T:254, train_loss:1.05329, train_acc:0.46181, val_loss=1.17816, val_acc=0.46154
+T:255, train_loss:1.04279, train_acc:0.47066, val_loss=1.21941, val_acc=0.46187
+T:256, train_loss:1.05096, train_acc:0.46568, val_loss=1.29887, val_acc=0.45333
+T:257, train_loss:1.05581, train_acc:0.46391, val_loss=1.09922, val_acc=0.45351
+T:258, train_loss:1.06485, train_acc:0.45374, val_loss=1.15821, val_acc=0.45602
+T:259, train_loss:1.06510, train_acc:0.45628, val_loss=1.05842, val_acc=0.46336
+T:260, train_loss:1.06450, train_acc:0.45512, val_loss=1.74894, val_acc=0.45411
+T:261, train_loss:1.06387, train_acc:0.45893, val_loss=1.51245, val_acc=0.45679
+T:262, train_loss:1.06337, train_acc:0.45716, val_loss=1.57314, val_acc=0.46212
+T:263, train_loss:1.06831, train_acc:0.44887, val_loss=1.57753, val_acc=0.46770
+T:264, train_loss:1.07109, train_acc:0.44301, val_loss=1.93067, val_acc=0.46561
+T:265, train_loss:1.06802, train_acc:0.44699, val_loss=1.94910, val_acc=0.46612
+T:266, train_loss:1.06845, train_acc:0.45191, val_loss=2.01264, val_acc=0.46667
+T:267, train_loss:1.06841, train_acc:0.45440, val_loss=1.07193, val_acc=0.46724
+T:268, train_loss:1.06612, train_acc:0.45445, val_loss=1.06885, val_acc=0.46199
+T:269, train_loss:1.06690, train_acc:0.45191, val_loss=1.50369, val_acc=0.45946
+T:270, train_loss:1.06672, train_acc:0.45540, val_loss=1.34874, val_acc=0.45988
+T:271, train_loss:1.06557, train_acc:0.45595, val_loss=2.11176, val_acc=0.45714
+T:272, train_loss:1.07709, train_acc:0.45329, val_loss=1.21535, val_acc=0.45098
+T:273, train_loss:1.07406, train_acc:0.43349, val_loss=1.12777, val_acc=0.44444
+T:274, train_loss:1.07006, train_acc:0.44384, val_loss=1.05863, val_acc=0.45486
+T:275, train_loss:1.07129, train_acc:0.43897, val_loss=1.29521, val_acc=0.46595
+T:276, train_loss:1.06614, train_acc:0.44400, val_loss=1.16489, val_acc=0.47407
+T:277, train_loss:1.05612, train_acc:0.45827, val_loss=1.19353, val_acc=0.46743
+T:278, train_loss:1.06110, train_acc:0.45700, val_loss=1.17815, val_acc=0.46032
+T:279, train_loss:1.05800, train_acc:0.44937, val_loss=1.14903, val_acc=0.43210
+T:280, train_loss:1.05734, train_acc:0.44699, val_loss=1.14507, val_acc=0.46154
+T:281, train_loss:1.06181, train_acc:0.43825, val_loss=1.12096, val_acc=0.44444
+T:282, train_loss:1.05267, train_acc:0.44732, val_loss=1.12044, val_acc=0.45833
+T:283, train_loss:1.04987, train_acc:0.44400, val_loss=1.11721, val_acc=0.46377
+T:284, train_loss:1.05103, train_acc:0.44256, val_loss=1.09977, val_acc=0.46465
+T:285, train_loss:1.03881, train_acc:0.45606, val_loss=1.08968, val_acc=0.46561
+T:286, train_loss:1.04229, train_acc:0.45130, val_loss=1.10073, val_acc=0.47778
+T:287, train_loss:1.03957, train_acc:0.44505, val_loss=1.10490, val_acc=0.46784
+T:288, train_loss:1.04216, train_acc:0.45219, val_loss=1.12195, val_acc=0.48148
+T:289, train_loss:1.04520, train_acc:0.45213, val_loss=1.06121, val_acc=0.48366
+T:290, train_loss:1.03741, train_acc:0.44566, val_loss=1.05917, val_acc=0.45833
+T:291, train_loss:1.03599, train_acc:0.44400, val_loss=1.02282, val_acc=0.45926
+T:292, train_loss:1.04026, train_acc:0.44102, val_loss=1.03833, val_acc=0.47619
+T:293, train_loss:1.03665, train_acc:0.44616, val_loss=1.03267, val_acc=0.48718
+T:294, train_loss:1.03747, train_acc:0.44140, val_loss=0.98902, val_acc=0.49074
+T:295, train_loss:1.03500, train_acc:0.45269, val_loss=1.01024, val_acc=0.49495
+T:296, train_loss:1.03246, train_acc:0.45080, val_loss=0.99057, val_acc=0.47778
+T:297, train_loss:1.02516, train_acc:0.45988, val_loss=1.00497, val_acc=0.45679
+T:298, train_loss:1.02758, train_acc:0.46391, val_loss=1.00458, val_acc=0.47222
+T:299, train_loss:1.02761, train_acc:0.45899, val_loss=1.06149, val_acc=0.47619
+T:300, train_loss:1.02608, train_acc:0.45838, val_loss=1.01210, val_acc=0.48148
+T:301, train_loss:1.02761, train_acc:0.45694, val_loss=1.01091, val_acc=0.35556
+T:302, train_loss:1.01931, train_acc:0.46314, val_loss=1.00417, val_acc=0.38889
+T:303, train_loss:1.01684, train_acc:0.47110, val_loss=0.98935, val_acc=0.48148
+T:304, train_loss:1.01671, train_acc:0.46806, val_loss=1.00398, val_acc=0.50000
+T:305, train_loss:1.01779, train_acc:0.47802, val_loss=0.87457, val_acc=0.66667
+0.4647956947852452
+accuracy on testing data is: 0.45751633986928103

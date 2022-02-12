@@ -1,0 +1,51 @@
+Total train data points: 306, Won: 45.09803921568628%, Lost: 31.045751633986928%, Draw: 23.856209150326798%
+Total test data points: 306, Won: 40.19607843137255%, Lost: 37.58169934640523%, Draw: 22.22222222222222%
+GNN model, data {} 0
+Continuous evaluation
+306
+T:0, train_loss:1.16505, train_acc:0.21111, val_loss=1.12343, val_acc=0.31046
+C:\Users\Amin\anaconda3\lib\site-packages\pandas\core\frame.py:3636: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  self[k1] = value[k2]
+T:1, train_loss:1.11133, train_acc:0.31587, val_loss=1.12007, val_acc=0.31313
+T:2, train_loss:1.09028, train_acc:0.24825, val_loss=1.11032, val_acc=0.30903
+T:3, train_loss:1.08355, train_acc:0.31579, val_loss=1.10446, val_acc=0.31900
+T:4, train_loss:1.07998, train_acc:0.32982, val_loss=1.09815, val_acc=0.31852
+T:5, train_loss:1.07995, train_acc:0.45252, val_loss=1.09502, val_acc=0.32184
+T:6, train_loss:1.06248, train_acc:0.51648, val_loss=1.09501, val_acc=0.40873
+T:7, train_loss:1.06398, train_acc:0.50660, val_loss=1.09929, val_acc=0.41564
+T:8, train_loss:1.06814, train_acc:0.52160, val_loss=1.08094, val_acc=0.47436
+T:9, train_loss:1.05733, train_acc:0.51556, val_loss=1.07997, val_acc=0.48444
+T:10, train_loss:1.05604, train_acc:0.50160, val_loss=1.09041, val_acc=0.46759
+T:11, train_loss:1.04518, train_acc:0.48690, val_loss=1.06785, val_acc=0.46377
+T:12, train_loss:1.04125, train_acc:0.48405, val_loss=1.03184, val_acc=0.50000
+T:13, train_loss:1.02429, train_acc:0.49071, val_loss=1.01780, val_acc=0.52381
+T:14, train_loss:0.99979, train_acc:0.47263, val_loss=1.04621, val_acc=0.45000
+T:15, train_loss:0.99106, train_acc:0.47206, val_loss=1.04421, val_acc=0.50877
+T:16, train_loss:1.00671, train_acc:0.47744, val_loss=1.05065, val_acc=0.51852
+T:17, train_loss:1.01372, train_acc:0.49162, val_loss=1.02466, val_acc=0.50327
+2
+T:18, train_loss:0.98629, train_acc:0.49819, val_loss=1.00628, val_acc=0.52083
+T:19, train_loss:0.99887, train_acc:0.48849, val_loss=1.01434, val_acc=0.50370
+1
+T:20, train_loss:0.99332, train_acc:0.49433, val_loss=1.00944, val_acc=0.53175
+1
+T:21, train_loss:1.00454, train_acc:0.49399, val_loss=1.00865, val_acc=0.52991
+1
+T:22, train_loss:1.00960, train_acc:0.48006, val_loss=1.02254, val_acc=0.54630
+T:23, train_loss:1.01089, train_acc:0.47491, val_loss=1.03475, val_acc=0.48485
+T:24, train_loss:1.00183, train_acc:0.49240, val_loss=1.02719, val_acc=0.50000
+T:25, train_loss:0.97736, train_acc:0.51034, val_loss=1.01657, val_acc=0.53086
+T:26, train_loss:0.97390, train_acc:0.51354, val_loss=1.04503, val_acc=0.52778
+T:27, train_loss:0.97645, train_acc:0.52030, val_loss=1.09410, val_acc=0.50794
+T:28, train_loss:0.97647, train_acc:0.51795, val_loss=1.05870, val_acc=0.44444
+T:29, train_loss:0.96971, train_acc:0.51550, val_loss=1.08864, val_acc=0.40000
+T:30, train_loss:1.00369, train_acc:0.48812, val_loss=1.16996, val_acc=0.33333
+T:31, train_loss:0.99229, train_acc:0.50993, val_loss=1.09096, val_acc=0.37037
+T:32, train_loss:0.99039, train_acc:0.50865, val_loss=1.07274, val_acc=0.50000
+T:33, train_loss:1.00813, train_acc:0.47222, val_loss=0.97710, val_acc=0.66667
+0.4561648938841035
+accuracy on testing data is: 0.434640522875817

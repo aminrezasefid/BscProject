@@ -1,0 +1,56 @@
+Total train data points: 380, Won: 47.63157894736842%, Lost: 33.68421052631579%, Draw: 18.68421052631579%
+Total test data points: 380, Won: 45.26315789473684%, Lost: 30.526315789473685%, Draw: 24.210526315789473%
+GNN model, data {} 0
+Continuous evaluation
+380
+T:0, train_loss:1.08624, train_acc:0.44333, val_loss=1.10056, val_acc=0.33611
+C:\Users\Amin\anaconda3\lib\site-packages\pandas\core\frame.py:3636: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  self[k1] = value[k2]
+T:1, train_loss:1.08646, train_acc:0.37513, val_loss=1.10169, val_acc=0.33056
+T:2, train_loss:0.96086, train_acc:0.56179, val_loss=1.09392, val_acc=0.41944
+T:3, train_loss:0.86042, train_acc:0.63529, val_loss=1.24418, val_acc=0.49575
+T:4, train_loss:0.64196, train_acc:0.73621, val_loss=1.32219, val_acc=0.45930
+T:5, train_loss:0.79363, train_acc:0.65613, val_loss=1.99440, val_acc=0.47164
+T:6, train_loss:0.81793, train_acc:0.60201, val_loss=1.28653, val_acc=0.53067
+T:7, train_loss:0.80703, train_acc:0.60934, val_loss=1.28192, val_acc=0.55521
+T:8, train_loss:0.78053, train_acc:0.63793, val_loss=2.13765, val_acc=0.49675
+T:9, train_loss:0.77023, train_acc:0.63374, val_loss=2.35963, val_acc=0.56522
+T:10, train_loss:0.80143, train_acc:0.64828, val_loss=2.45290, val_acc=0.56207
+T:11, train_loss:0.79175, train_acc:0.65349, val_loss=1.92817, val_acc=0.55160
+T:12, train_loss:0.82540, train_acc:0.61977, val_loss=1.23844, val_acc=0.56250
+T:13, train_loss:0.83984, train_acc:0.60825, val_loss=1.17383, val_acc=0.57795
+T:14, train_loss:0.85194, train_acc:0.60394, val_loss=1.67386, val_acc=0.57874
+T:15, train_loss:0.82433, train_acc:0.62618, val_loss=1.62332, val_acc=0.59184
+T:16, train_loss:0.83811, train_acc:0.60919, val_loss=1.03290, val_acc=0.56780
+T:17, train_loss:0.83578, train_acc:0.61287, val_loss=1.06620, val_acc=0.58590
+T:18, train_loss:0.81354, train_acc:0.62918, val_loss=1.04114, val_acc=0.57798
+T:19, train_loss:0.85305, train_acc:0.61786, val_loss=0.99007, val_acc=0.55502
+T:20, train_loss:0.84599, train_acc:0.61489, val_loss=0.97974, val_acc=0.59000
+T:21, train_loss:0.86650, train_acc:0.60155, val_loss=1.17029, val_acc=0.57068
+T:22, train_loss:0.86995, train_acc:0.59886, val_loss=1.07291, val_acc=0.58242
+T:23, train_loss:0.90409, train_acc:0.57952, val_loss=1.00696, val_acc=0.58960
+T:24, train_loss:0.89179, train_acc:0.58313, val_loss=1.06356, val_acc=0.59146
+T:25, train_loss:0.89405, train_acc:0.59126, val_loss=0.99277, val_acc=0.58710
+T:26, train_loss:0.90368, train_acc:0.59023, val_loss=1.00762, val_acc=0.58904
+T:27, train_loss:0.90308, train_acc:0.59036, val_loss=0.95037, val_acc=0.59854
+T:28, train_loss:0.89280, train_acc:0.59706, val_loss=0.88944, val_acc=0.60156
+T:29, train_loss:0.90809, train_acc:0.57407, val_loss=0.90157, val_acc=0.61345
+T:30, train_loss:0.88957, train_acc:0.60044, val_loss=0.91527, val_acc=0.59091
+T:31, train_loss:0.88215, train_acc:0.60426, val_loss=0.98255, val_acc=0.59406
+T:32, train_loss:0.88644, train_acc:0.60064, val_loss=1.05710, val_acc=0.54348
+T:33, train_loss:0.89752, train_acc:0.59047, val_loss=0.99098, val_acc=0.56627
+T:34, train_loss:0.88236, train_acc:0.60117, val_loss=0.98326, val_acc=0.55405
+T:35, train_loss:0.88075, train_acc:0.59757, val_loss=1.02245, val_acc=0.52308
+T:36, train_loss:0.87843, train_acc:0.60387, val_loss=1.04770, val_acc=0.51786
+T:37, train_loss:0.88457, train_acc:0.60290, val_loss=1.27289, val_acc=0.48936
+T:38, train_loss:0.89570, train_acc:0.59204, val_loss=1.14930, val_acc=0.47368
+T:39, train_loss:0.89941, train_acc:0.59038, val_loss=1.22193, val_acc=0.51724
+T:40, train_loss:0.91844, train_acc:0.57961, val_loss=1.08939, val_acc=0.60000
+T:41, train_loss:0.91894, train_acc:0.58812, val_loss=1.12825, val_acc=0.63636
+T:42, train_loss:0.94603, train_acc:0.58164, val_loss=1.09704, val_acc=0.50000
+0.5576534609079438
+accuracy on testing data is: 0.5026315789473684
